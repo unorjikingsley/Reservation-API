@@ -1,6 +1,11 @@
 class User < ApplicationRecord
-  # has_many :reservations, foreign_key: 'user_id', dependent: :destroy
-  # has_many :cars, foreign_key: 'user_id', dependent: :destroy
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :validatable
 
-  # validates :username, :email, :password, presence: true
+  has_many :reservations, foreign_key: 'user_id', dependent: :destroy
+  has_many :cars, foreign_key: 'user_id', dependent: :destroy
+
+  validates :username, :email, :password, presence: true
 end
