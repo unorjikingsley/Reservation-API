@@ -1,7 +1,7 @@
 # require 'swagger_helper'
 
 # RSpec.describe Api::V1::UsersController, type: :request do
-#   # rubocop:disable Metrics/BlockLength
+#
 #   path '/api/v1/users' do
 #     get 'Fetch all users' do
 #       tags 'Users'
