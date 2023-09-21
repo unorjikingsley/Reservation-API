@@ -14,7 +14,7 @@ user_5 = User.create(username: "Sal", email: "sal@example.com", password: "passw
 
 
 User.all.each do |user|
-    3.times do
+    5.times do
       user.cars.create(
         name: Faker::Vehicle.make_and_model,
         image: 'https://images.unsplash.com/photo-1542228262-3d663b306a53?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80',     
@@ -27,7 +27,7 @@ User.all.each do |user|
   
 
   User.all.each do |user|
-    2.times do
+    4.times do
       car = Car.all.sample
       user.reservations.create(
         start_date: Faker::Date.between(from: 1.month.from_now, to: 2.months.from_now),
