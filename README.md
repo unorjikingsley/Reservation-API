@@ -80,13 +80,11 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="https://budget-app-biftu.onrender.com/">Budget App Live</a>
+- <a href="#">Rent/Buy a car App Live</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🎥 Video <a name="video"></a>
-
-<a href="https://www.loom.com/share/Budget-Building-Managing-Transactions-and-Categories-2ea1424a6dd34b0cb9e03c763ed5ba6f?sid=89824a7e-15c3-47fa-ac0e-a41c0c21bf82">Get an understanding of the project by watching this video</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,6 +96,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- `React`
+- `Redux`
 - `Ruby`
 - `Rails`
 - `Code editor (VSCode, RubyMine)`
@@ -107,7 +107,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/Bifabig/Budget-App.git
+  git clone https://github.com/unorjikingsley/Reservation-API.git
 ```
 
 ### Install
@@ -183,9 +183,9 @@ If you like this project consider adding a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
+Original design idea by [Murat Korkmaz on Behance](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign).
 
-I would like to thank [Microverse](https://bit.ly/MicroverseTN)..
+We would like to thank [Microverse](https://bit.ly/MicroverseTN)..
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
