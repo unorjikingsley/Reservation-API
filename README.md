@@ -156,11 +156,11 @@ You can deploy this project using your own deployment solution
 - Twitter: [@biftu94](https://twitter.com/biftu94)
 - LinkedIn: [Biftu Girma](https://www.linkedin.com/in/biftu-girma/)
 
-👤 **Musangamfura Emmanuel**
+👤 **Musangamfura Emmmanuel**
 
-- GitHub: [@](https://github.com/)
-- Twitter: [@](https://twitter.com/)
-- LinkedIn: [Musangamfura Emmanuel](https://www.linkedin.com/in/)
+- [GitHub](https://github.com/musangamfure)
+- [Twitter](https://twitter.com/musangamfure)
+- [LinkedIn](https://www.linkedin.com/in/musangamfurae)
 
 👤 **Salma Ibrahim**
 
