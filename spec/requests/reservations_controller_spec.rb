@@ -1,7 +1,6 @@
 require 'swagger_helper'
 
 RSpec.describe Api::V1::ReservationsController, type: :request do
-
   path '/api/v1/reservations' do
     get 'Fetch all reservations' do
       tags 'Reservations'
