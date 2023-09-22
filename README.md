@@ -170,8 +170,8 @@ You can deploy this project using your own deployment solution
 
 👤 **Denio Nhanale**
 
-- GitHub: [@](https://github.com/deniodev)
-- Twitter: [@](https://twitter.com/DNhanale)
+- GitHub: [@Denio Nhanale](https://github.com/deniodev)
+- Twitter: [@Denio Nhanale](https://twitter.com/DNhanale)
 - LinkedIn: [Denio Nhanale](www.linkedin.com/in/denionhanale)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
