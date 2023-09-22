@@ -145,6 +145,11 @@ You can deploy this project using your own deployment solution
 
 ## 👥 Authors <a name="authors"></a>
 
+👤 **Unorji Kingsley**
+
+- GitHub: [@unorjikingsley](https://github.com/unorjikingsley)
+- LinkedIn: [unorjikingsley](linkedin.com/in/unorjikingsley)
+
 👤 **Biftu Girma**
 
 - GitHub: [@Bifabig](https://github.com/Bifabig)
@@ -157,7 +162,7 @@ You can deploy this project using your own deployment solution
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Create a desktop version**
+- **Add an option to buy new cars**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
