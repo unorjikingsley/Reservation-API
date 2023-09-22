@@ -164,9 +164,9 @@ You can deploy this project using your own deployment solution
 
 👤 **Salma Ibrahim**
 
-- GitHub: [@](https://github.com/)
-- Twitter: [@](https://twitter.com/)
-- LinkedIn: [Salma Ibrahim](https://www.linkedin.com/in/)
+- GitHub: [@Saluumaa](https://github.com/saluumaa)
+- Twitter: [@SalmaHIbrahim20](https://twitter.com/SalmaHIbrahim20)
+- LinkedIn: [Salma ibrahim](https://www.linkedin.com/in/salma-ibrahim-78bb5a14a/)
 
 👤 **Denio Nhanale**
 
