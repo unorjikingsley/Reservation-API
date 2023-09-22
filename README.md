@@ -65,9 +65,14 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **register and log in**
-- **introduce new transactions associated with a category.**
-- **see the money spent on each category.**
+- **The user logs in to the website, only by typing the username**
+- **The user can see links to: Cars, Reserve, My Reservations, Add Car, and Delete Car**
+- **See a list of cars**
+- **User can select the item and see details of the item**
+- **user clicks the "Add item" link in the navigation panel they can see a form for adding a new item.**
+- **When the user clicks the "Delete item" link in the navigation panel they can see a list of all items with title and "Delete" button.**
+- **When the user clicks the "My reservations" link in the navigation panel they can see a list of their reservations (with information about item name, date and city).**
+- **"Add item" and "Delete item" links are accessible only by users who are admins.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
