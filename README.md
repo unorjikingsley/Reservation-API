@@ -156,6 +156,24 @@ You can deploy this project using your own deployment solution
 - Twitter: [@biftu94](https://twitter.com/biftu94)
 - LinkedIn: [Biftu Girma](https://www.linkedin.com/in/biftu-girma/)
 
+👤 **Musangamfura Emmanuel**
+
+- GitHub: [@](https://github.com/)
+- Twitter: [@](https://twitter.com/)
+- LinkedIn: [Musangamfura Emmanuel](https://www.linkedin.com/in/)
+
+👤 **Salma Ibrahim**
+
+- GitHub: [@](https://github.com/)
+- Twitter: [@](https://twitter.com/)
+- LinkedIn: [Salma Ibrahim](https://www.linkedin.com/in/)
+
+👤 **Denio Nhanale**
+
+- GitHub: [@](https://github.com/)
+- Twitter: [@](https://twitter.com/)
+- LinkedIn: [Denio Nhanale](https://www.linkedin.com/in/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

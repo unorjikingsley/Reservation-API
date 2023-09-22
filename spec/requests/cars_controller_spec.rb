@@ -30,7 +30,7 @@ RSpec.describe Api::V1::CarsController, type: :request do
     get 'Fetch a car' do
       tags 'Cars'
       produces 'application/json'
-      response '200', 'OK' do
+      response '200', 'OK' do # here
         schema type: :object,
                properties: {
                  id: { type: :integer },
@@ -62,7 +62,7 @@ RSpec.describe Api::V1::CarsController, type: :request do
         required: %w[user_id name price]
       }
 
-      response '201', 'Car created successfully' do
+      response '201', 'Car created successfully' do # here
         schema type: :object,
                properties: {
                  id: { type: :integer },
@@ -77,7 +77,7 @@ RSpec.describe Api::V1::CarsController, type: :request do
         run_test!
       end
 
-      response '422', 'Invalid data - Car not created' do
+      response '422', 'Invalid data - Car not created' do # here
         schema type: :object,
                properties: {
                  error: { type: :string }
@@ -90,7 +90,7 @@ RSpec.describe Api::V1::CarsController, type: :request do
       tags 'Cars'
       parameter name: :id, in: :path, type: :integer
 
-      response '200', 'Car deleted successfully' do
+      response '200', 'Car deleted successfully' do # here
         schema type: :object,
                properties: {
                  message: { type: :string }
@@ -98,7 +98,7 @@ RSpec.describe Api::V1::CarsController, type: :request do
         run_test!
       end
 
-      response '404', 'Car not found' do
+      response '404', 'Car not found' do # here
         schema type: :object,
                properties: {
                  error: { type: :string }
