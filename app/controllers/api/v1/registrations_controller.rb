@@ -2,7 +2,7 @@
 # RegistrationsController. This controller is specifically designed for user registration
 # and responds to JSON requests.
 
-class Api::V1::RegistrationsController < Devise::ApplicationController
+class Api::V1::RegistrationsController < Devise::RegistrationsController
   respond_to :json
 
   def create
