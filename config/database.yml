@@ -84,6 +84,4 @@ test:
 #
 production:
   <<: *default
-  database: reservationAPI_production
-  username: reservationAPI
-  password: <%= ENV["RESERVATIONAPI_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
