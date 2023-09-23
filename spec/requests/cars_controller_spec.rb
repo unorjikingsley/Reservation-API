@@ -30,6 +30,7 @@ RSpec.describe Api::V1::CarsController, type: :request do
     get 'Fetch a car' do
       tags 'Cars'
       produces 'application/json'
+
       response '200', 'OK' do # here
         schema type: :object,
                properties: {
