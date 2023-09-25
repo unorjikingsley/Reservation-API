@@ -6,12 +6,22 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-user_1 = User.create(username: "Bif", email: "bif@example.com", password: "password")
-user_2 = User.create(username: "Den", email: "den@example.com", password: "password")
-user_3 = User.create(username: "King", email: "king@example.com", password: "password")
-user_4 = User.create(username: "Emma", email: "emma@example.com", password: "password")
-user_5 = User.create(username: "Sal", email: "sal@example.com", password: "password")
+user_1 = User.create(username: "Bif", email: "bif@example.com", password: "password", authentication_token: Devise.friendly_token)
+user_2 = User.create(username: "Den", email: "den@example.com", password: "password", authentication_token: Devise.friendly_token)
+user_3 = User.create(username: "King", email: "king@example.com", password: "password", authentication_token: Devise.friendly_token)
+user_4 = User.create(username: "Emma", email: "emma@example.com", password: "password", authentication_token: Devise.friendly_token)
+user_5 = User.create(username: "Sal", email: "sal@example.com", password: "password", authentication_token: Devise.friendly_token)
 
+# OR
+
+# 5.times do
+#   User.create!(
+#     username: Faker::Name.unique.first_name,
+#     email: Faker::Internet.unique.email,
+#     password: "password",
+#     authentication_token: Devise.friendly_token
+#   )
+# end
 
 User.all.each do |user|
   5.times do
