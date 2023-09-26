@@ -65,3 +65,7 @@ gem 'rack-cors'
 gem 'rswag'
 
 gem 'rswag-ui'
+
+gem 'devise_token_auth'
+
+gem 'omniauth'

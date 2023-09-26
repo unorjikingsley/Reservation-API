@@ -1,6 +1,8 @@
 class Api::V1::ReservationsController < ApplicationController
+  before_action :authenticate_user!, only: %i[create index destroy]
+
   def index
-    @reservations = Reservation.all.order(created_at: :desc)
+    @reservations = current_user.reservations
     render json: @reservations
   end
 
@@ -10,12 +12,11 @@ class Api::V1::ReservationsController < ApplicationController
   end
 
   def create
-    @reservation = Reservation.new(reservation_params)
-
+    @reservation = current_user.reservations.build(reservation_params)
     if @reservation.save
-      render json: { reservation: @reservation, message: 'success' }, status: :created
+      render json: @reservation, status: :created
     else
-      render json: { error: 'Error creating reservation' }, status: :unprocessable_entity
+      render json: { errors: @reservation.errors.full_messages }, status: :unprocessable_entity
     end
   end
 
@@ -30,9 +31,13 @@ class Api::V1::ReservationsController < ApplicationController
   end
 
   def destroy
-    @reservation = Reservation.find(params[:id])
-    @reservation.destroy
-    render json: { message: 'success' }, status: 200
+    @reservation = current_user.reservations.find_by(id: params[:id])
+    if @reservation
+      @reservation.destroy
+      render json: { message: 'Reservation destroyed' }, status: :ok
+    else
+      render json: { error: 'Reservation not found' }, status: :not_found
+    end
   end
 
   private
