@@ -1,52 +1,8 @@
-user_1 = User.create(
-    provider: 'email',
-    uid: "bif@example.com",
-    allow_password_change: false,
-    username: "Bif",
-    nickname: nil,
-    image: nil,
-    email: "bif@example.com"
-  )
-  
-  user_2 = User.create(
-    provider: 'email',
-    uid: "den@example.com",
-    allow_password_change: false,
-    username: "Den",
-    nickname: nil,
-    image: nil,
-    email: "den@example.com"
-  )
-  
-  user_3 = User.create(
-    provider: 'email',
-    uid: "king@example.com",
-    allow_password_change: false,
-    username: "King",
-    nickname: nil,
-    image: nil,
-    email: "king@example.com"
-  )
-  
-  user_4 = User.create(
-    provider: 'email',
-    uid: "emma@example.com",
-    allow_password_change: false,
-    username: "Emma",
-    nickname: nil,
-    image: nil,
-    email: "emma@example.com"
-  )
-  
-  user_5 = User.create(
-    provider: 'email',
-    uid: "sal@example.com",
-    allow_password_change: false,
-    username: "Sal",
-    nickname: nil,
-    image: nil,
-    email: "sal@example.com"
-  )
+user_1 = User.create(username: "Bif", email: "bif@example.com", password: "password")
+user_2 = User.create(username: "Den", email: "den@example.com", password: "password")
+user_3 = User.create(username: "King", email: "king@example.com", password: "password")
+user_4 = User.create(username: "Emma", email: "emma@example.com", password: "password")
+user_5 = User.create(username: "Sal", email: "sal@example.com", password: "password")
 
 User.all.each do |user|
     5.times do
