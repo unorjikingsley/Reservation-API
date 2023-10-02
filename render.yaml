@@ -1,0 +1,18 @@
+databases:
+  - name: carhub-db
+    databaseName: carhub_db_y9fi
+    user: carhub_db_y9fi_user
+
+services:
+  - type: web
+    name: carhub
+    runtime: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: carhub-db
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
