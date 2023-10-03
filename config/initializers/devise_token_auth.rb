@@ -66,7 +66,7 @@ DeviseTokenAuth.setup do |config|
 
   # config.default_confirm_success_url = "confirmed"
 
-  config.default_confirm_success_url = 'http://localhost:5173/login'
+  config.default_confirm_success_url = 'https://dev--cozy-concha-614dd5.netlify.app/login'
 
   # config.default_password_reset_url = 'http://localhost:5173/reset-password'
 
