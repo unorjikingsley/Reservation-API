@@ -15,7 +15,6 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-  - [🎥 Video](#video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -83,10 +82,6 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - <a href="https://dev--cozy-concha-614dd5.netlify.app">Carhub App Live</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🎥 Video <a name="video"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
