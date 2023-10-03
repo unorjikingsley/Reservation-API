@@ -22,7 +22,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   host: localhost
   username: postgres
-  password: Dealsanha
+  password: Chidonkid0011
 
 development:
   <<: *default
@@ -82,8 +82,13 @@ test:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
+
+# production:
+#   <<: *default
+#   database: reservationAPI_production
+#   username: reservationAPI
+#   password: <%= ENV["RESERVATIONAPI_DATABASE_PASSWORD"] %>
+
 production:
   <<: *default
-  database: reservationAPI_production
-  username: reservationAPI
-  password: <%= ENV["RESERVATIONAPI_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
