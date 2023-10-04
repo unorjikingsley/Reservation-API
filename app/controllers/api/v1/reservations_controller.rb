@@ -1,6 +1,5 @@
 class Api::V1::ReservationsController < ApplicationController
-  # before_action :authenticate_user!, only: %i[create index destroy]
-
+ 
   def index
     @reservations = Reservation.all.order(created_at: :desc)
     render json: @reservations
