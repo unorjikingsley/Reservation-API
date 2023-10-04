@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<h3><b>Rent/Buy a Car</b></h3>
+<h3><b>Carhub API</b></h3>
 
 </div>
 
