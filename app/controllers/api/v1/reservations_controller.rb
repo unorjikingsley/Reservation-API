@@ -1,5 +1,4 @@
 class Api::V1::ReservationsController < ApplicationController
- 
   def index
     @reservations = Reservation.all.order(created_at: :desc)
     render json: @reservations
