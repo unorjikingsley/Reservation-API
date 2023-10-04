@@ -2,6 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Reservation, type: :model do
   let(:user) { User.create(username: 'sam', email: 'sam@gmail.com', password: 'password') }
+  
   let(:car) do
     Car.create(user_id: user.id,
                name: 'Honda',
