@@ -90,9 +90,9 @@
 ## 🚀 Kanban Board <a name="Kanban-Board"></a>
   ## A Team of 5 Members worked on this project - [See list of authors](#authors)
    - <a href="https://github.com/users/unorjikingsley/projects/6/views/1">Kanban Board Link</a>
-    - [Kanban Screenshot 1](https://user-images.githubusercontent.com/99336776/272520515-00422de1-c8f6-4970-839b-bd1ae78846b3.png)
-    - [Kanban Screenshot 2](https://user-images.githubusercontent.com/99336776/272520581-ffb1d505-33b2-4727-8a8e-5b9a2961b9e3.png)
-    - [Kanban Screenshot 3](https://user-images.githubusercontent.com/99336776/272520633-b4b7e1dc-cfe2-4e1c-9019-d4cac923e4b2.png)
+   - [Kanban Screenshot 1](https://user-images.githubusercontent.com/99336776/272520515-00422de1-c8f6-4970-839b-bd1ae78846b3.png)
+   - [Kanban Screenshot 2](https://user-images.githubusercontent.com/99336776/272520581-ffb1d505-33b2-4727-8a8e-5b9a2961b9e3.png)
+   - [Kanban Screenshot 3](https://user-images.githubusercontent.com/99336776/272520633-b4b7e1dc-cfe2-4e1c-9019-d4cac923e4b2.png)
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,6 +192,8 @@ You can deploy this project using your own deployment solution
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **Add an option to buy new cars**
+- **Implement Edit button in the Delete car section**
+- **Redirect the email confirmation link to the login page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,7 +221,7 @@ If you like this project consider adding a ⭐️
 
 Original design idea by [Murat Korkmaz on Behance](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign).
 
-We would like to thank [Microverse](https://bit.ly/MicroverseTN)..
+We would like to thank [Microverse](https://bit.ly/MicroverseTN).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
