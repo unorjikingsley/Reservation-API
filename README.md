@@ -146,6 +146,20 @@ To run tests, run the following command:
 ```sh
   rspec ./spec/models
 ```
+To run tests for controllers(request) and for API Documentation, run the following command:
+
+Install the gem -
+ Add the `gem 'rswag'` and `gem 'rswag-ui'` in your gem file and run `bundle install`
+
+Run
+
+```sh
+  rails generate rswag:install
+```
+
+```sh
+  rake rswag:specs:swaggerize
+```
 
 ### Deployment
 
