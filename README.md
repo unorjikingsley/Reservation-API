@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Rent/Buy a Car App <a name="about-project"></a>
+# 📖 Carhub App <a name="about-project"></a>
 
-**Rent/Buy a Car App:** is a full stack web application with a react client and rails api that allows users to book reservations for renting or buying a car.
+**Carhub App:** is a full stack web application with a react client and rails api that allows users to book reservations for renting or buying a car.
 
 => [Link to the front-end main react app](https://github.com/deniodev/car_reservation_front_end)
 
