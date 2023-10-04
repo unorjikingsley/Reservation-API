@@ -47,6 +47,9 @@
   <ul>
     <li><a href="https://react.dev/">ReactJS</a></li>
   </ul>
+  <ul>
+    <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+  </ul>
 </details>
 
 <details>
