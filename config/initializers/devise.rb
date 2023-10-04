@@ -14,7 +14,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = '47c3aaa17a04966e7edd00971b884e8ebfd747aa5394c1fd2cbe046e8e1f07f92dbed06b1963b86905db17a9632f4effc28441ae2e62588433292dd4aa32d390'
+  # config.secret_key = 'fdfcc2327151909f73ae996f440e11bf99d75039a640dd562eb168a79ce3a2dfbe3de5d29a089ed4b510563eab741eb40acf26804ea0bce451fb3c335071b872'
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
@@ -24,7 +24,7 @@ Devise.setup do |config|
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
+  config.mailer_sender = 'devise@example.com'
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
@@ -126,7 +126,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 12
 
   # Set up a pepper to generate the hashed password.
-  # config.pepper = 'b1ed366e5a6504a9ddeb69d2bd9337b507549bff19851f075c6b6737171bb692ac1d91fb9e48a5c9193db1cf82d87872008f20ca94c087690871df1ec3d37f63'
+  # config.pepper = 'bc13f2c60319f131faa0a58d157ea0413e8aad48535dee7f9faf41ce09144aec1aba90eab4f4307b0e33428ba9f259a78d0ba58a97a3d5a2db599400bcfcde4b'
 
   # Send a notification to the original email when the user's email is changed.
   # config.send_email_changed_notification = false
@@ -263,7 +263,8 @@ Devise.setup do |config|
   # should add them to the navigational formats lists.
   #
   # The "*/*" below is required to match Internet Explorer requests.
-  # config.navigational_formats = ['*/*', :html, :turbo_stream]
+  # config.navigational_formats = [:json]
+  config.navigational_formats = ['*/*', :html, :turbo_stream]
 
   # The default HTTP method used to sign out a resource. Default is :delete.
   config.sign_out_via = :delete
@@ -304,7 +305,7 @@ Devise.setup do |config|
   # Note: These might become the new default in future versions of Devise.
   config.responder.error_status = :unprocessable_entity
   config.responder.redirect_status = :see_other
-
+  config.authentication_keys = [:username]
   # ==> Configuration for :registerable
 
   # When set to false, does not sign a user in automatically after their password is
