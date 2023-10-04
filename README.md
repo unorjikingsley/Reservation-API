@@ -109,11 +109,14 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
+Install this project run these commands in order:
 
 ```sh
   cd my-project
   bundle install
+  rails db:create
+  rails db:migrate
+  rails db:seed
 ```
 
 ### Usage
@@ -129,7 +132,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  rspec spec
+  rspec ./spec/models
 ```
 
 ### Deployment
