@@ -15,6 +15,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [Kanban Board](#Kanban-Board)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -35,7 +36,7 @@
 
 **Rent/Buy a Car App:** is a full stack web application with a react client and rails api that allows users to book reservations for renting or buying a car.
 
-=> [Link to the front-end react app](https://github.com/deniodev/car_reservation_front_end.git)
+=> [Link to the front-end main react app](https://github.com/deniodev/car_reservation_front_end)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -85,6 +86,15 @@
 - [Backend API](https://carhub-nxj0.onrender.com/api/v1/cars)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Kanban Board <a name="Kanban-Board"></a>
+  ## A Team of 5 Members worked on this project - [See list of authors](#authors)
+   - <a href="https://github.com/users/unorjikingsley/projects/6/views/1">Kanban Board Link</a>
+    - [Kanban Screenshot 1](https://user-images.githubusercontent.com/99336776/272520515-00422de1-c8f6-4970-839b-bd1ae78846b3.png)
+    - [Kanban Screenshot 2](https://user-images.githubusercontent.com/99336776/272520581-ffb1d505-33b2-4727-8a8e-5b9a2961b9e3.png)
+    - [Kanban Screenshot 3](https://user-images.githubusercontent.com/99336776/272520633-b4b7e1dc-cfe2-4e1c-9019-d4cac923e4b2.png)
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
