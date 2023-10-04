@@ -15,7 +15,6 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-  - [🎥 Video](#video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -82,11 +81,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Rent/Buy a car App Live](https://carhub-tzv6.onrender.com/api/v1/users)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🎥 Video <a name="video"></a>
+- <a href="https://dev--cozy-concha-614dd5.netlify.app">Carhub App Live</a>
+- [Backend API](https://carhub-nxj0.onrender.com/api/v1/cars)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,11 +110,14 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
+Install this project run these commands in order:
 
 ```sh
   cd my-project
   bundle install
+  rails db:create
+  rails db:migrate
+  rails db:seed
 ```
 
 ### Usage
@@ -134,7 +133,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  rspec spec
+  rspec ./spec/models
 ```
 
 ### Deployment

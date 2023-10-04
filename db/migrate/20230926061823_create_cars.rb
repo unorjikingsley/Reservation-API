@@ -7,7 +7,7 @@ class CreateCars < ActiveRecord::Migration[7.0]
       t.decimal :price
       t.string :model
       t.references :user, null: false, foreign_key: true
-
+      
       t.timestamps
     end
   end
