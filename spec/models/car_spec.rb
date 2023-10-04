@@ -1,6 +1,7 @@
 require 'rails_helper'
 RSpec.describe Car, type: :model do
   let(:user) { User.create(username: 'sam', email: 'sam@gmail.com', password: 'password') }
+  
   subject do
     Car.new(user_id: user.id, name: 'Honda',
             image: 'https://images.unsplash.com/photo-1542228262-3d663b306a53?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80',
